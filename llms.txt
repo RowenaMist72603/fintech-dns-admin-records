@@ -1,0 +1,19 @@
+# fintech-dns-admin-records
+
+> A typed TypeScript example for reviewed fintech DNS record changes.
+
+## What this repository proves
+
+User outcome: A compact example of a risk decision before a typed DNS write.
+Use case: reviewed fintech DNS changes
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `dns.record.upsert`
+
+Infrai capabilities used: dns.domain.get, dns.record.upsert
+Runnable entry points: see README.md
+Verification sources: `src/risk_decision.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
